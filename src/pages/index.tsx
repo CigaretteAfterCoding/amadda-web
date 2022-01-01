@@ -4,7 +4,7 @@ import Link from 'next/link';
 function HomePage() {
   return (<div>Welcome to Next.js!
     <Link href="/cc">
-    adf
+    adfadf
     </Link>
   </div>);
 }
