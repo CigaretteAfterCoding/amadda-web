@@ -1,24 +1,26 @@
 import React from 'react';
 import styled from '@emotion/styled';
-import Link from 'next/link';
-
-export const getServerSideProps = () => {
-  return { props: {} };
-};
+import { colors } from 'amadda-ui';
+import Header from '@components/Header/Header';
+import SignUpForm from './SignUpForm';
 
 function SignUpPage() {
   return (
-    <SignUpPageBlock>
-      회원가입 페이지
-      <Link href="/">
-        홈으로
-      </Link>
-    </SignUpPageBlock>
+    <>
+      <Header />
+      <SignUpPageBlock>
+        <SignUpForm />
+      </SignUpPageBlock>
+    </>
   );
 }
 
 const SignUpPageBlock = styled.main`
-
+  background-color: ${colors.gray[300]};
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;
 
 export default SignUpPage;

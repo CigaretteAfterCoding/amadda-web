@@ -2,10 +2,6 @@ import React from 'react';
 import styled from '@emotion/styled';
 import Link from 'next/link';
 
-export const getServerSideProps = () => {
-  return { props: {} };
-};
-
 function SignInPage() {
   return (
     <SignInPageBlock>

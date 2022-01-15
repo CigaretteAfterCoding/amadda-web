@@ -1,1 +1,1 @@
-export { getServerSideProps, default } from '@features/sign-in/SignInPage';
+export { default } from '@features/sign-in/SignInPage';
