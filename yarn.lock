@@ -4456,15 +4456,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"amadda-ui@npm:^0.7.0":
-  version: 0.7.0
-  resolution: "amadda-ui@npm:0.7.0"
+"amadda-ui@npm:^0.9.0":
+  version: 0.9.0
+  resolution: "amadda-ui@npm:0.9.0"
   dependencies:
     "@emotion/react": ^11.7.1
     "@emotion/styled": ^11.6.0
     react: ^17.0.2
     react-dom: ^17.0.2
-  checksum: 020891bb02d739e568e5317787d1ee406ba7e7086b22e9f9144105827780dc41110de5e0f6878bac076514bc2721dac97ea433cc9ddbfedd79edd047b84fa132
+  checksum: db9b3f9b5fc3c73733659b2bc70847b9fa327a00f512fc35b487ccbc817ff751dc9b203fdfa1de9a78ce120af56c5c80d59954970a2d73b3fd77ab88c1604f7a
   languageName: node
   linkType: hard
 
@@ -4482,7 +4482,7 @@ __metadata:
     "@types/react-dom": ^17.0.11
     "@typescript-eslint/eslint-plugin": ^5.8.1
     "@typescript-eslint/parser": ^5.8.1
-    amadda-ui: ^0.7.0
+    amadda-ui: ^0.9.0
     axios: ^0.24.0
     eslint: ^8.6.0
     eslint-plugin-jsx-a11y: ^6.5.1
