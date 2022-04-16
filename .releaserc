@@ -1,4 +1,3 @@
-
 name: Build and Add tag
 
 on:
@@ -16,12 +15,12 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '16.x'
+          node-version: "16.x"
 
       - name: Build
         run: yarn run build
 
       - name: Semantic Release
         run: yarn run semantic-release
-        env: 
+        env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
